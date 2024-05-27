@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position:inherit;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #4a90e2, #9013fe);
+    padding: 10px 0;
+    transition: background 0.3s;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+section {
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+#home {
+    background-image: url(images/animal.jpg); 
+    background-size:contain;
+    background-position: center;
+}
+#about {
+    background-image: url(images/animal2.jpg);
+    background-size: contain;
+    background-position: center; }
+#services { 
+    background-image: url(images/animal3.jpg);
+    background-size: contain;
+    background-position: center; }
+#contact {
+    background-image: url(images/bird.jpg);
+    background-size: contain;
+    background-position: center; }
